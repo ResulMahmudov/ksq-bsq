@@ -1,3 +1,5 @@
+
+
 const Smester = () => {
   return (
     <div className="mt-6 flex flex-col gap-8">
@@ -24,7 +26,7 @@ const Smester = () => {
 
             </div>
             <div>
-              <Switch id="bsq-mode" />
+              
             </div>
           </div>
         </div>
