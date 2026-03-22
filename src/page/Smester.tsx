@@ -1,3 +1,4 @@
+import ScoreBar from '@/components/ScoreBar';
 import { Switch } from '@/components/ui/switch';
 
 const Smester = () => {
@@ -11,7 +12,9 @@ const Smester = () => {
         </p>
       </div>
 
-      <div className="flex justify-start items-start">
+      <div className="flex justify-start items-start gap-8">
+
+
         <div className="bg-white rounded-[12px] p-6 flex flex-col gap-4">
           <div>
             <div className="flex items-center justify-start gap-3">
@@ -144,6 +147,9 @@ const Smester = () => {
             Hesabla
           </button>
         </div>
+
+
+       <ScoreBar score={87.5} />
       </div>
     </div>
   );
