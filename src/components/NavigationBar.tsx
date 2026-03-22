@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
   return (
-    <div className=" border-b border-gray-200 pt-2.5 bg-white">
+    <div className=" border-b border-gray-200 p-2.5 bg-white">
       <div className="w-[90%] max-w-[1300px] mx-auto ">
         <div className="flex justify-between items-center ">
           <Link to="/">

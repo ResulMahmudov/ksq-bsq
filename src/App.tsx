@@ -2,6 +2,7 @@ import { Route, Routes } from 'react-router-dom';
 import NavigationBar from './components/NavigationBar';
 import Smester from './page/Smester';
 import Yarimillik from './page/Yarimillik';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
           </Routes>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
