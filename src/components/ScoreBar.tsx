@@ -8,7 +8,7 @@ export default function ScoreBar({
   label = 'Yarımillik bal',
 }: ScoreBarProps) {
   return (
-    <div className="bg-white rounded-[12px] md:p-[33px] p-[25px] flex flex-col gap-8  items-start">
+    <div className="bg-white rounded-[12px] md:p-[33px] p-[25px] flex flex-col gap-8  items-start ">
       <div className="flex flex-col gap-8 items-center justify-center">
          <p className="text-xs tracking-widest text-gray-400 uppercase">{label}</p>
 
