@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="bg-white">
       <div className="w-[90%] max-w-[1380px] mx-auto ">
         
-        <div className=" flex  md:flex-row gap-6 md:gap-0 flex-col md:h-[114px] h-[184px] justify-between items-center w-full p-[40px]">
+        <div className=" flex  md:flex-row gap-6 md:gap-0 flex-col h-full justify-between items-center w-full p-[40px]">
           <h1 className="md:text-[30px] text-[25px]  text-[#3b82f5] font-bold">AsanSınaq</h1>
 
           <ul className="flex justify-center items-center gap-8">
