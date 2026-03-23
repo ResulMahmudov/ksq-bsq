@@ -8,14 +8,15 @@ export default function ScoreBar({
   label = 'Yarımillik bal',
 }: ScoreBarProps) {
   return (
-    <div className="bg-white rounded-[12px] p-[33px] flex flex-col gap-4  items-center">
-      <p className="text-xs tracking-widest text-gray-400 uppercase">{label}</p>
+    <div className="bg-white rounded-[12px] md:p-[33px] p-[25px] flex flex-col gap-8  items-start">
+      <div className="flex flex-col gap-8 items-center justify-center">
+         <p className="text-xs tracking-widest text-gray-400 uppercase">{label}</p>
 
-      <span className="text-6xl font-bold text-gray-900 dark:text-white leading-none">
+      <span className="md:text-6xl text-5xl font-bold text-gray-900 dark:text-white leading-none">
         {score}
       </span>
 
-      <div className="relative w-[402px] h-[16px] rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700">
+      <div className="relative md:w-[402px] md:h-[16px]  w-[302px] h-[12px] rounded-full overflow-hidden bg-gray-200 dark:bg-gray-700">
         <div
           className="absolute inset-0 rounded-full"
           style={{
@@ -31,13 +32,14 @@ export default function ScoreBar({
       </div>
 
       <div className="flex flex-col items-center justify-center gap-2">
-        <div className="flex items-center justify-center bg-[#11ba82] w-[80px] h-[80px] rounded-full">
+        <div className="flex items-center justify-center bg-[#11ba82] w-[80px] h-[80px] w-[64px] h-[64px] rounded-full">
           <h1 className="text-3xl font-bold text-white">5</h1>
         </div>
         <span className="text-sm font-semibold tracking-wider">QIYMƏTINIZ</span>
       </div>
+      </div>
 
-      <div className="flex items-start gap-3 justify-start border border-[#dee8fc] bg-[#f5f8ff] p-5 rounded-[12px]">
+      <div className="flex items-start gap-3 justify-start border border-[#dee8fc] bg-[#f5f8ff] p-5 rounded-[12px] md:w-[402px] w-[308px]">
         <div>
           <svg
             width="17"
@@ -53,8 +55,8 @@ export default function ScoreBar({
           </svg>
         </div>
 
-        <div className="flex flex-col items-start justify-start gap-2">
-          <p className="text-[#475569] w-[402px]">
+        <div className="flex flex-col items-start justify-start gap-2 ">
+          <p className="text-[#475569]">
             Bu nəticə bütün KSQ-lərin 40%-i və BSQ-nin 60%- i əsasında
             hesablanmışdır.
           </p>
@@ -65,11 +67,13 @@ export default function ScoreBar({
       </div>
 
       <div className="  flex  items-center justify-between w-full">
-        <div className="rounded-[12px] border border-[#dee8fc] flex flex-col items-start justify-start w-[193px] bg-[#f7fafc] p-4">
-          <span className=" font-semibold text-sm text-[#65758c]">KSQ ORTA</span>
+        <div className="rounded-[12px] border border-[#dee8fc] flex flex-col items-start justify-start md:w-[193px] w-[148px] bg-[#f7fafc] p-4">
+          <span className=" font-semibold text-sm text-[#65758c]">
+            KSQ ORTA
+          </span>
           <h1 className="text-[18px] font-semibold">75.0</h1>
         </div>
-        <div className=" rounded-[12px] border border-[#dee8fc] font-semibold flex flex-col items-start justify-start w-[193px] bg-[#f7fafc] p-4">
+        <div className=" rounded-[12px] border border-[#dee8fc] font-semibold flex flex-col items-start justify-start md:w-[193px] w-[148px] bg-[#f7fafc] p-4">
           <span className=" text-[#65758c] text-sm">MAKSIMAL</span>
           <h1 className="text-[18px] font-semibold">100</h1>
         </div>

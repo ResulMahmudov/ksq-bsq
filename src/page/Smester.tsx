@@ -4,19 +4,19 @@ import { Switch } from '@/components/ui/switch';
 const Smester = () => {
   return (
     <div className="mt-6 flex flex-col gap-8 pb-5">
-      <div>
-        <h1 className="text-[32px] font-bold">Smester Balı Hesablayıcı</h1>
-        <p className="text-sm text-gray-400 ">
+      <div className='flex flex-col md:items-start md:justify-start items-center justify-center'>
+        <h1 className="md:text-[32px]  text-[24px] font-bold">Smester Balı Hesablayıcı</h1>
+        <p className="text-sm text-gray-400 text-center ">
           Ksq və Bsq Ballarınızı daxil edərək yarımillik nəticənizi dərhal
           öyrənin
         </p>
       </div>
 
-      <div className="flex justify-start items-start gap-8">
+      <div className=" flex md:flex-row  flex-col justify-start items-start gap-8">
 
 
         <div className="bg-white rounded-[12px] p-6 flex flex-col gap-4">
-          <div>
+          <div className='flex flex-col gap-6'>
             <div className="flex items-center justify-start gap-3">
               <svg
                 width="18"
@@ -49,7 +49,7 @@ const Smester = () => {
                       <input
                         type="number"
                         defaultValue={0}
-                        className="p-3 w-[562px] h-[50px] rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
+                        className="p-3 md:w-[562px] md:h-[50px] w-[264px] h-[50px] rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
                       />
                       <button>
                         <svg
@@ -74,7 +74,7 @@ const Smester = () => {
                       <input
                         type="number"
                         defaultValue={0}
-                        className="p-3 w-[562px] h-[50px] rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
+                        className="p-3 md:w-[562px] md:h-[50px] w-[264px] h-[50px] rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
                       />
                       <button>
                         <svg
@@ -94,7 +94,7 @@ const Smester = () => {
                   </div>
                 </div>
 
-                <button className=" cursor-pointer flex items-center justify-center gap-3 text-[16px] text-[#10b981] font-bold rounded-[12px] border-2 border-dashed border-[#10b981]  h-[52px] ">
+                <button className=" cursor-pointer flex items-center justify-center gap-3 text-[16px] text-[#10b981] font-bold rounded-[12px] border-2 border-dashed border-[#10b981] md:w-[618px]  md:h-[52px]   w-[316px]  h-[48px]                       ">
                   <svg
                     width="20"
                     height="20"
@@ -122,7 +122,7 @@ const Smester = () => {
               <input
                 type="number"
                 defaultValue={0}
-                className="p-3 w-[562px] h-[50px] rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
+                className="p-3 md:w-[562px] md:h-[50px] w-[316px]  h-[48px]   rounded-[12px] bg-[#f7fafc] border-b border-gray-200"
               />
             </div>
             <div className="flex items-center justify-start gap-3">
@@ -131,7 +131,7 @@ const Smester = () => {
             </div>
           </div>
 
-          <button className=" cursor-pointer  flex items-center justify-center gap-3 text-white text-[18px] bg-[#3b82f5] h-[60px] rounded-xl">
+          <button className=" cursor-pointer  flex items-center justify-center gap-3 text-white text-[18px] bg-[#3b82f5] md:w-[618px]  md:h-[60px]  w-[316px]  h-[48px]   rounded-xl">
             <svg
               width="18"
               height="18"
