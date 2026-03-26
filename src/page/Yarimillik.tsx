@@ -5,7 +5,7 @@ interface ScoreBarProps {
 const Yarimillik = ({ score }: ScoreBarProps) => {
   return (
     <div className=" flex flex-col md:items-start md:justify-start gap-10  items-center justify-center mt-[48px] mb-10">
-      <div className=" flex flex-col items-start justify-start">
+      <div className=" flex flex-col md:items-start md:justify-start text-center">
         <h1 className="md:text-[32px]  text-[24px] font-bold">
           illik Bal Hesablayıcı
         </h1>
