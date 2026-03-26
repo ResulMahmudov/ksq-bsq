@@ -1,16 +1,15 @@
 interface ScoreBarProps {
   score: number; // 0-100 arası
-  label?: string;
+
 }
 
 export default function ScoreBar({
-  score,
-  label = 'Yarımillik bal',
+  score
 }: ScoreBarProps) {
   return (
     <div className="bg-white rounded-[12px] md:p-[33px] p-[25px] flex flex-col gap-8  items-start ">
       <div className="flex flex-col gap-8 items-center justify-center">
-         <p className="text-xs tracking-widest text-gray-400 uppercase">{label}</p>
+         <p className="text-xs tracking-widest text-gray-400 uppercase">Yarımillik bal</p>
 
       <span className="md:text-6xl text-5xl font-bold text-gray-900 dark:text-white leading-none">
         {score}

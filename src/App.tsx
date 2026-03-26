@@ -13,7 +13,7 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Smester />} />
 
-            <Route path="/yarimillik" element={<Yarimillik />} />
+            <Route path="/yarimillik" element={<Yarimillik  score={20}/>} />
 
             {/* Səhv link yazılarsa (404), bura istədiyin bir mesajı və ya komponenti qoya bilərsən */}
             <Route

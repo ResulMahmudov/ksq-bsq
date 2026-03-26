@@ -3,7 +3,7 @@ import { Switch } from '@/components/ui/switch';
 
 const Smester = () => {
   return (
-    <div className="mt-6 flex flex-col gap-8 pb-5 md:items-start md:justify-start items-center justify-center">
+    <div className="mt-10 flex flex-col gap-8 mb-10 md:items-start md:justify-start items-center justify-center">
       <div className='flex flex-col md:items-start md:justify-start items-center justify-center'>
         <h1 className="md:text-[32px]  text-[24px] font-bold">Smester Balı Hesablayıcı</h1>
         <p className="text-sm text-gray-400 text-center ">
